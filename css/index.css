@@ -127,7 +127,7 @@ nav {
 .top-content-about .text-container {
     width: 100%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    /* padding-bottom: 2vh;   */
 }
 
 
@@ -139,8 +139,20 @@ nav {
 
 .about-middle{
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    display: flex
+    border-bottom: 0px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* justify-content: space-between; */
+    
+}
+.top-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-boxes {
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-middle button{
@@ -153,10 +165,17 @@ nav {
     font-size: 16px;
    
 }
-
-.about-card img,h2,p{
-    margin-bottom: 2vh;
+.about-card {
+    /* border-bottom: 1px dashed black; */
+    /* margin-top:2vh; */
+    /* width:93%; */
 }
+
+.about-card img,h2,p,button{
+    margin-bottom: 2vh;
+    /* padding: 0 1%; */
+}
+
 
 
 /* About Page Specific Styling */
