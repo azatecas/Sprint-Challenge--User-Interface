@@ -135,6 +135,31 @@ nav {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+/* About Page Specific Styling */
+
+.about-middle{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    display: flex
+}
+
+.about-middle button{
+    color: black;
+    background: white;
+    border: 2px solid black;
+    width: 13vh;
+    height: 3.5vh;
+    border-radius: 8px;
+    font-size: 16px;
+   
+}
+
+.about-card img,h2,p{
+    margin-bottom: 2vh;
+}
+
+
+/* About Page Specific Styling */
 
 .middle-content h2 {
     padding: 0 2%;
@@ -191,6 +216,11 @@ nav {
 
 .bottom-content {
     display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+.bottom-content-about {
+    
     margin: 0 2% 20px;
     justify-content: space-around;
 }
