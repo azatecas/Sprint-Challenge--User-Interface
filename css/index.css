@@ -188,6 +188,11 @@ nav {
     padding-top: 2vh;
 
 }
+.about-card button:hover {
+    transform: scale(1.1);
+    border: 1px solid darkgrey;
+    color: darkgrey;
+}
 .how-we-work {
     border-bottom: 1px dashed black;
     width: 46.5%;
@@ -231,6 +236,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.boxes div:hover {    
+    transform: scale(1.5);
+
 }
 .box1{
     background-color: teal;
