@@ -70,6 +70,37 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 3vh;
+
+}
+.nav-links {
+    display: flex;
+    
+    align-self: flex-end;
+    /* border: 1px solid black; */
+    width: 80%;
+    font-size: 2vh;
+    
+
+}
+.nav-links a{
+    text-decoration: none;
+    color:black;
+    padding-left:6vh;
+    
+}
+
+.banner {
+    display: flex;
+    flex-direction: column
+}
+.banner img{
+    margin-bottom: 3vh;
+}
+
 
 .top-content {
     display: flex;
