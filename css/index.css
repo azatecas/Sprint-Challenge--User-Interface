@@ -70,6 +70,38 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 3vh;
+    margin-top:2vh;
+
+}
+.nav-links {
+    display: flex;
+    
+    align-self: flex-end;
+    /* border: 1px solid black; */
+    width: 80%;
+    font-size: 2vh;
+    
+
+}
+.nav-links a{
+    text-decoration: none;
+    color:black;
+    padding-left:6vh;
+    
+}
+
+.banner {
+    display: flex;
+    flex-direction: column
+}
+.banner img{
+    margin-bottom: 3vh;
+}
+
 
 .top-content {
     display: flex;
@@ -84,11 +116,105 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 100%;
+}
+.top-content-about .text-container {
+    width: 100%;
+    padding: 0 1%;
+    /* padding-bottom: 2vh;   */
+}
+
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+/* About Page Specific Styling */
+
+.about-middle{
+    margin-bottom: 20px;
+    border-bottom: 0px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding:0 1%; */
+    
+    /* justify-content: space-between; */
+    
+}
+.top-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-middle button{
+    color: black;
+    background: white;
+    border: 2px solid black;
+    width: 13vh;
+    height: 3.5vh;
+    border-radius: 8px;
+    font-size: 16px;
+    /* margin:0 10%; */
+   
+}
+.about-card {
+    /* border-bottom: 1px dashed black; */
+    /* margin-top:2vh; */
+    /* width:93%; */
+    /* border-bottom: 1px solid red; */
+    /* border: 1px solid black;
+    width: 46.5%; */
+}
+
+.about-card img,h2,p,button{
+    margin-bottom: 2vh;
+    /* padding: 0 1%; */
+    
+}
+.strategy {
+    border-bottom: 1px dashed black;
+    width: 46.5%;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+
+}
+.about-card button:hover {
+    transform: scale(1.1);
+    border: 1px solid darkgrey;
+    color: darkgrey;
+}
+.how-we-work {
+    border-bottom: 1px dashed black;
+    width: 46.5%;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+}
+.places-we-work {
+    border-bottom: 1px dashed black;
+    width: 46.5%;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+}
+.collaboration {
+    border-bottom: 1px dashed black;
+    width: 46.5%;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+
+
+/* About Page Specific Styling */
 
 .middle-content h2 {
     padding: 0 2%;
@@ -104,16 +230,56 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.boxes div:hover {    
+    transform: scale(1.5);
+
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+.bottom-content-about {
+    
     margin: 0 2% 20px;
     justify-content: space-around;
 }
@@ -124,6 +290,9 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+.bottom-content-about {
+    padding-bottom: 1vh;
 }
 
 footer {
@@ -143,4 +312,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-boxes div:hover {
+    transform: scale(1.1);
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.bottom-boxes div:hover {
+    transform: scale(1.1);
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

@@ -1,3 +1,6 @@
+####initial Commit
+
+
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
@@ -33,14 +36,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML would be like the basic structure of a house. you need to have a strong foundation and proper support beans and walls before you move on to decorating and living in the house.
+	semantic HTML helps computer organize the information and tells the browser and search engine the meaning of each element of information and what it is. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    1. One main difference is that block creates a line break afterwards. forcing the content that follows it into a new line while inline does not.
+	2. The second difference is that block takes up the entire with of its  parent container while inline only takes up as much space as it needs. 
 
 3. What are the 4 areas of the box model?
+    1. margin
+`	2. Border
+	3. padding
+	4. content area
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    1. it affects the vertical axis
 
 5. Explain why git is valuable to a team of developers.
+    1. Git is valuable because it allows you to track version controls for the team. it allows the team to revert back to a specific stage and it helps prevent conflicts withing the code.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
